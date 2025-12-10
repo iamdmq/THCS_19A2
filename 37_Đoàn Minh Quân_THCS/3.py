@@ -11,7 +11,7 @@ def kiem_tra_so_armstrong(n):
     
     while temp_n > 0:
         chu_so = temp_n % 10
-        tong_luy_thua += chu_so ** so_chu_so # Trong Python có thể dùng ** 3 hoặc ** so_chu_so
+        tong_luy_thua += chu_so ** so_chu_so 
         temp_n //= 10
         
     return tong_luy_thua == n
